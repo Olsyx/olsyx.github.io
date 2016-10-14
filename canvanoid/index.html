@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES6 Classes</title>
+	<script src="./dist/Canvanoid.js"></script>
+	<script src="./dist/stages.js"></script>
+	<script src="./dist/classes/Sprite.js"></script>
+	<script src="./dist/classes/Ball.js"></script>
+	<script src="./dist/classes/Solid.js"></script>
+	<script src="./dist/classes/Board.js"></script>
+	<script src="./dist/classes/Brick.js"></script>
+	<script src="./dist/classes/Vaus.js"></script>
+	<script src="./dist/classes/State.js"></script>
+	<script src="./dist/classes/Panel.js"></script>
+	<script src="./dist/classes/Score.js"></script>
+	<script src="./dist/utils.js"></script>
+	<script src="./dist/tests.js"></script>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script>	
+		window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || 
+									window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
+					
+		var canvas = document.getElementById('canvas')
+		canvas.width = window.innerWidth - 100; 
+		canvas.height = window.innerHeight - 100; 
+
+		var game = new Canvanoid(canvas); 	
+		game.start();
+
+	</script>
+</body>
+</html>
