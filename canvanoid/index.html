@@ -7,17 +7,24 @@
     <link rel="stylesheet" type="text/css" href="./../style.css">
 </head>
 <body>
-	<canvas id="canvas"></canvas>
-	<script> //"babel src -d dist",
-		window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || 
-									window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
-					
-		var canvas = document.getElementById('canvas')
-		canvas.width = window.innerWidth - 100; 
-		canvas.height = window.innerHeight - 100; 
+	<div id="wrapper">
+		<br/>
+		<br/>
+		<br/>
+		<div class="panel canvas-container">
+			<canvas id="canvas"></canvas>
+			<script> //"babel src -d dist",
+				window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || 
+											window.msRequestAnimationFrame || window.mozRequestAnimationFrame;
+							
+				var canvas = document.getElementById('canvas')
+				canvas.width = 650; 
+				canvas.height = 650; 
 
-		var game = new Canvanoid(canvas); 	
-		game.start();
-	</script>
+				var game = new Canvanoid(canvas); 	
+				game.start();
+			</script>
+		</div>
+	</div>
 </body>
 </html>
