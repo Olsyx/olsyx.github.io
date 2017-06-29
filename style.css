@@ -7,11 +7,11 @@ body {
     height: 100%;
     margin: auto 0;
 
-    background: -webkit-linear-gradient(top, #FFE587 0,  #FF8B4A 100%);
-    background: -moz-linear-gradient(top, #FFE587 0,  #FF8B4A 100%);
-    background: -o-linear-gradient(top, #FFE587 0,  #FF8B4A 100%);
-    background: -ms-linear-gradient(top, #FFE587 0,  #FF8B4A 100%);
-    background: linear-gradient(top, #FFE587 0, #FF8B4A 100%);
+    background: -webkit-linear-gradient(top, #ABC1EC 0,  #BAADED 100%);
+    background: -moz-linear-gradient(top, #ABC1EC 0,  #BAADED 100%);
+    background: -o-linear-gradient(top, #ABC1EC 0,  #BAADED 100%);
+    background: -ms-linear-gradient(top, #ABC1EC 0,  #BAADED 100%);
+    background: linear-gradient(top, #ABC1EC 0, #BAADED 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
         
